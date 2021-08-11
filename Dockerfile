@@ -1,6 +1,6 @@
 FROM openjdk:18-slim@sha256:543a99767aa1f6da693ed7057924c45950a3cbfd4a542446315338ecf8302562 as build
 
-FROM couchbase:7.0.0
+FROM couchbase:7.0.0@sha256:005fb3ba97c2362b9ccc9d96f0d94bf09c2fe784d889fe71c5a2ba475e4645a4
 
 EXPOSE 80000
 
