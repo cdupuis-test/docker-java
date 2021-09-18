@@ -1,4 +1,4 @@
-FROM openjdk:18-slim@sha256:f7063ee44bee941a38cbc06a65e57e7224cfdb4be5bca396bd7613e2fc54ebc1 as build
+FROM openjdk:18-slim@sha256:4305c991d89266ed7c9e6b15dfefd61c0204d4bc32c9ebbbb5239c4f9ddb33a3 as build
 
 FROM couchbase:7.0.0
 
